@@ -188,3 +188,37 @@ img{
     gap: 2rem;
     width: 100%;
 }
+
+
+/************ COLLECTION ************/
+.hero{
+    aspect-ratio: 4/2;
+    overflow: hidden;
+}
+.collection .container__contenedor__imagen{
+    /* width: 50%; */
+    aspect-ratio: 3/4;
+    /* overflow: hidden; */
+    
+}
+
+.comentario__contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    width: 50%;
+}
+.comentario__titulo{
+    font-size: 5rem;
+    font-weight: 400;
+}
+.comentario__titulo:first-child{
+    align-self: flex-start;
+}
+.comentario__titulo:last-child{
+    align-self: flex-end;
+}
+.comentario__imagen{
+    max-width: 15%;
+}
