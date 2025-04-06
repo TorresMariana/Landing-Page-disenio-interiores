@@ -9,10 +9,6 @@
 </head>
 <body>
     <header class="header__container">
-        <!-- <div class="header__marca">
-            <img class="marca" src="img/marca.png" alt="marca">
-            <h1 class="marca__titulo">Interior Design</h1>
-        </div> -->
         <a href="index.html" class="header__marca">
             <img class="marca" src="img/marca.png" alt="marca">
             <h1 class="marca__titulo">Interior Design</h1>
@@ -28,16 +24,16 @@
         <nav class="header__menu">
             <ul class="header__menu__lista">
                 <li class="header__menu__lista__link">
-                    <a href="index.html" class="header__menu__link">Home</a>
+                    <a href="index.html" class="header__menu__link" onclick="cerrarMenuHamburguesa();">Home</a>
                 </li>
                 <li class="header__menu__lista__link">
-                    <a href="about.html" class="header__menu__link">About</a>
+                    <a href="about.html" class="header__menu__link" onclick="cerrarMenuHamburguesa();">About</a>
                 </li>
                 <li class="header__menu__lista__link">
-                    <a href="collection.html" class="header__menu__link">Collection</a>
+                    <a href="collection.html" class="header__menu__link" onclick="cerrarMenuHamburguesa();">Collection</a>
                 </li>
                 <li class="header__menu__lista__link">
-                    <a href="shop.html" class="header__menu__link">Shop</a>
+                    <a href="shop.html" class="header__menu__link" onclick="cerrarMenuHamburguesa();">Shop</a>
                 </li>
             </ul>
         </nav>
@@ -120,5 +116,6 @@
         </ul>
     </footer>
         
+    <script src="js/app.js"></script>
 </body>
 </html>
